@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TourneeFutee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb7151cc3ff95a68e0736515edfdf8de6c18dbfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b44a057be87149f2dfa0895a0a7703e3192708b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TourneeFutee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TourneeFutee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
