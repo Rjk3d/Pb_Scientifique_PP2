@@ -4,7 +4,10 @@
     // en utilisant l'algorithme de Little
     public class Little
     {
-        //  : ajouter tous les attributs que vous jugerez pertinents 
+        //  TODO: ajouter tous les attributs que vous jugerez pertinents 
+        private Graph graph;
+        private Tour chemin;
+        private float minimum;
 
         // Instancie le planificateur en spécifiant le graphe modélisant un problème de voyageur de commerce
         public Little(Graph graph)
