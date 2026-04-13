@@ -5,55 +5,47 @@ namespace TourneeFutee
 {
     public class Tour
     {
-        // TODO : ajouter tous les attributs que vous jugerez pertinents 
-        private List<(string source, string destination)> segments;
-        private float cost;
+        public List<(string source, string destination)> trajets { get; set; }
+
+        private float cout;
 
         public Tour()
         {
-            segments = new List<(string source, string destination)>();
-            cost = 0;
+            trajets = new List<(string, string)>();
+            cout = 0;
         }
 
-        // propriétés
-
-        // Coût total de la tournée
         public float Cost
         {
-            get { return cost; }    // TODO : implémenter
+            get { return cout; }
+            set { cout = value; }
         }
 
-        // Nombre de trajets dans la tournée
         public int NbSegments
         {
-            get { return segments.Count; }    // TODO : implémenter
+            get { return trajets.Count; }
         }
 
-
-        // Renvoie vrai si la tournée contient le trajet `source`->`destination`
         public bool ContainsSegment((string source, string destination) segment)
         {
-            return segments.Contains(segment);   // TODO : implémenter 
+            foreach (var t in trajets)
+            {
+                if (t.Item1 == segment.Item1 && t.Item2 == segment.Item2)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
-
-        // Affiche les informations sur la tournée : coût total et trajets
         public void Print()
         {
-            Console.WriteLine("Coût total : " + cost);
+            Console.WriteLine("Coût de la tournée : " + cout);
             Console.WriteLine("Trajets :");
-            foreach ((string source, string destination) segment in segments)
+            foreach (var t in trajets)
             {
-                Console.WriteLine(segment.source + " -> " + segment.destination);
+                Console.WriteLine($"- {t.Item1} -> {t.Item2}");
             }
-        }
-
-        // TODO : ajouter toutes les méthodes que vous jugerez pertinentes 
-
-        public void AddSegment(string source, string destination, float segmentCost)
-        {
-            segments.Add((source, destination));
-            cost += segmentCost;
         }
     }
 }
