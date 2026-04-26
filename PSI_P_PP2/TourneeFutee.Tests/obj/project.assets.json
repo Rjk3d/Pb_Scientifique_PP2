@@ -1674,11 +1674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee.Tests\\TourneeFutee.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee.Tests\\TourneeFutee.Tests.csproj",
       "projectName": "TourneeFutee.Tests",
-      "projectPath": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee.Tests\\TourneeFutee.Tests.csproj",
+      "projectPath": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee.Tests\\TourneeFutee.Tests.csproj",
       "packagesPath": "C:\\Users\\andyt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee.Tests\\obj\\",
+      "outputPath": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1700,8 +1700,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj": {
-              "projectPath": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj"
+            "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj": {
+              "projectPath": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj"
             }
           }
         }

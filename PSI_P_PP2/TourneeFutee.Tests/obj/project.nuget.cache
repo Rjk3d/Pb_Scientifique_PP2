@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mH+hkrG1XTI=",
+  "dgSpecHash": "nodZvqqZoWk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee.Tests\\TourneeFutee.Tests.csproj",
+  "projectFilePath": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee.Tests\\TourneeFutee.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andyt\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\andyt\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

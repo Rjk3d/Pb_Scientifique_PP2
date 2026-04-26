@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj",
+      "projectUniqueName": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj",
       "projectName": "TourneeFutee",
-      "projectPath": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj",
+      "projectPath": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee\\TourneeFutee.csproj",
       "packagesPath": "C:\\Users\\andyt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andyt\\Source\\Repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\TourneeFutee\\obj\\",
+      "outputPath": "C:\\Users\\andyt\\source\\repos\\Pb_Scientifique_PP2\\PSI_P_PP2\\psi 3\\PSI_P_PP2\\TourneeFutee\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
