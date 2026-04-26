@@ -24,7 +24,15 @@ namespace TourneeFutee
         {
             get { return sommetsDico.Count; }
         }
+        public bool Directed
+        {
+            get { return estOriente; }
+        }
 
+        public bool ContainsVertex(string name)
+        {
+            return sommetsDico.ContainsKey(name);
+        }
         public void AddVertex(string name, float value = 0)
         {
             if (sommetsDico.ContainsKey(name)) throw new ArgumentException();

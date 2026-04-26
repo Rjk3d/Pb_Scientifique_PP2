@@ -14,6 +14,16 @@ namespace TourneeFutee
             trajets = new List<(string, string)>();
             cout = 0;
         }
+        public Tour(List<string> vertices, float cost)
+        {
+            trajets = new List<(string, string)>();
+            cout = cost;
+
+            for (int i = 0; i < vertices.Count - 1; i++)
+            {
+                trajets.Add((vertices[i], vertices[i + 1]));
+            }
+        }
 
         public float Cost
         {
@@ -47,5 +57,24 @@ namespace TourneeFutee
                 Console.WriteLine($"- {t.Item1} -> {t.Item2}");
             }
         }
+        public List<string> Vertices
+        {
+            get
+            {
+                List<string> vertices = new List<string>();
+
+                if (trajets.Count == 0)
+                    return vertices;
+
+                vertices.Add(trajets[0].source);
+
+                foreach (var trajet in trajets)
+                {
+                    vertices.Add(trajet.destination);
+                }
+
+                return vertices;
+            }
+        }
     }
-}
+    }
