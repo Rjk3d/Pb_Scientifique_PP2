@@ -31,7 +31,7 @@ namespace TourneeFutee.Tests
         // ─────────────────────────────────────────────────────────────────────
         // Instance partagée du service (créée une seule fois par classe de test)
         // ─────────────────────────────────────────────────────────────────────
-        private static ServicePersistanceACompleter _service;
+        private static ServicePersistanceAcompleter _service;
 
         // ─────────────────────────────────────────────────────────────────────
         // Initialisation de la classe de test (appelée une seule fois)
@@ -40,7 +40,7 @@ namespace TourneeFutee.Tests
         public static void ClassSetup(TestContext ctx)
         {
             // Crée le service de persistance (doit se connecter sans exception)
-            _service = new ServicePersistance(DB_SERVER, DB_NAME, DB_USER, DB_PWD);
+            _service = new ServicePersistanceAcompleter(DB_SERVER, DB_NAME, DB_USER, DB_PWD);
         }
 
         // ─────────────────────────────────────────────────────────────────────
