@@ -9,6 +9,11 @@
 --
 -- TODO : compléter les parties marquées "TODO" ci-dessous.
 -- =============================================================================
+CREATE DATABASE IF NOT EXISTS tourneefutee;
+
+-- Utilisation de la base
+USE tourneefutee;
+
 
 -- Supprimer les tables dans l'ordre inverse des dépendances (pour réinitialiser)
 DROP TABLE IF EXISTS EtapeTournee;
